@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{848EA5C6-00C9-48E7-B5FE-1E0D3DB6A5E5}"
+	ProjectSection(SolutionItems) = preProject
+		Externals\CitizenFX.Client.dll = Externals\CitizenFX.Client.dll
+		Externals\CitizenFX.Server.dll = Externals\CitizenFX.Server.dll
+		Externals\I18N.dll = Externals\I18N.dll
+		Externals\I18N.West.dll = Externals\I18N.West.dll
+		Externals\Mono.Data.Tds.dll = Externals\Mono.Data.Tds.dll
+		Externals\System.Data.OracleClient.dll = Externals\System.Data.OracleClient.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Config\Config.csproj", "{46BE004E-4926-446C-A97D-55F847DDF071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI", "DI\DI.csproj", "{A22F7000-1D3D-4B95-8ABD-75E7AD68D752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{605A2097-931C-4E81-8E5C-882D2B0115E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC", "IOC\IOC.csproj", "{CDD8872E-A043-4F85-A18A-4EA1513A0757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{28D1CE1A-CEA0-40ED-9751-64325E0BFF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{92092D8B-1422-4617-96A9-E5E8C00E3A65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46BE004E-4926-446C-A97D-55F847DDF071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BE004E-4926-446C-A97D-55F847DDF071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BE004E-4926-446C-A97D-55F847DDF071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BE004E-4926-446C-A97D-55F847DDF071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22F7000-1D3D-4B95-8ABD-75E7AD68D752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22F7000-1D3D-4B95-8ABD-75E7AD68D752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22F7000-1D3D-4B95-8ABD-75E7AD68D752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22F7000-1D3D-4B95-8ABD-75E7AD68D752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605A2097-931C-4E81-8E5C-882D2B0115E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605A2097-931C-4E81-8E5C-882D2B0115E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605A2097-931C-4E81-8E5C-882D2B0115E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605A2097-931C-4E81-8E5C-882D2B0115E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD8872E-A043-4F85-A18A-4EA1513A0757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD8872E-A043-4F85-A18A-4EA1513A0757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD8872E-A043-4F85-A18A-4EA1513A0757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD8872E-A043-4F85-A18A-4EA1513A0757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D1CE1A-CEA0-40ED-9751-64325E0BFF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D1CE1A-CEA0-40ED-9751-64325E0BFF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D1CE1A-CEA0-40ED-9751-64325E0BFF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D1CE1A-CEA0-40ED-9751-64325E0BFF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92092D8B-1422-4617-96A9-E5E8C00E3A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92092D8B-1422-4617-96A9-E5E8C00E3A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92092D8B-1422-4617-96A9-E5E8C00E3A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92092D8B-1422-4617-96A9-E5E8C00E3A65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BB40B18-029F-424D-93D4-BE07D53799A3}
+	EndGlobalSection
+EndGlobal
