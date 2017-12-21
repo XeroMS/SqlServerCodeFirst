@@ -15,7 +15,7 @@ Thank you to everyone that published the amazing open source platform [MVCForum]
 
 Thank you to Microsoft for their Dependency Injection Framework because the Dependency Injection Project is just a slimmed down version of their Dependency Injection Framework so that a dependency on System.Web is not needed.
 
-Thank you to Brouznouf over at [FiveM.net](https://forum.fivem.net) for creating MySQL Async and giving me a base to start from to ultimately get this working.
+Thank you to Brouznouf over at [FiveM.net](https://forum.fivem.net) for creating [MySQL Async](https://forum.fivem.net/t/release-mysql-async-library-v2-0-2-fxserver/21881) and giving me a base to start from to ultimately get this working.
 
 Thank you to everyone over at [FiveM.net](https://forum.fivem.net) that helped me and pushed me to get this working.
 
